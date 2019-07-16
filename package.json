@@ -5,6 +5,7 @@
   "engines": {
     "node": ">= 7.6.0"
   },
+  "main": "start.js",
   "scripts": {
     "prod": "node ./start.js",
     "watch": "nodemon ./start.js --ignore public/",
